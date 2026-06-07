@@ -1,0 +1,26 @@
+3)-> sum = 0
+ch = "yes"
+while ch == "yes":
+    num = int(input("Enter a number: "))
+    sum = sum + num
+    ch = input("Do you want to enter number? (yes/no): ")
+print("Sum of all numbers entered =", sum)
+
+✦Output:-
+•Enter a number: 10
+Do you want to enter number? (yes/no): yes
+•Enter a number: 20
+Do you want to enter number? (yes/no): yes
+•Enter a number: 30
+Do you want to enter number? (yes/no): no
+Sum of all numbers entered = 60
+
+
+
+
+
+
+
+
+
+
